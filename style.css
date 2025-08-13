@@ -1,0 +1,209 @@
+:root {
+    --color-primary: #a71a1a; /* Rosa/rojo estilo LaLiga */
+    --color-secondary: #111;  /* Negro */
+    --color-accent: #ffffff;  /* Amarillo */
+    --color-bg: #f4f4f4;
+    --color-text: #222;
+    --border-radius: 10px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+/* --- CABECERA --- */
+header {
+    background: var(--color-primary);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+header .logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    flex: 1;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* --- MENÚ --- */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+nav a.active {
+    background: var(--color-accent);
+    color: var(--color-secondary);
+}
+
+/* --- CONTENIDO CENTRAL --- */
+main {
+    text-align: center;
+    max-width: 900px; /* ancho máximo */
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+/* --- TABLAS --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px auto;
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    table-layout: auto;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: var(--color-secondary);
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* --- BOTONES --- */
+button {
+    background: var(--color-primary);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    margin: 0 5px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #b5124e;
+}
+
+/* --- ESTILO IMAGEN ---*/
+.imagen-foto{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para la tarjeta de partido */
+.partido {
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Encabezado de la tarjeta */
+.partido-card .header-card {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Marcador del partido */
+.partido-card .score-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+.partido-card .score-card .equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.partido-card .score-card .goles {
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: 2.5rem;
+}
+
+/* Contenedor de jugadores: ¡Aquí está la clave! */
+.jugadores-card {
+    display: flex; /* Convierte el contenedor en un Flexbox */
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: var(--color-bg);
+    border-radius: var(--border-radius);
+}
+
+/* Estilos para las listas de jugadores */
+.lista-jugadores {
+    flex: 1;
+    text-align: center;
+}
+.lista-jugadores h4 {
+    margin-top: 0;
+    text-align: center;
+}
+.lista-jugadores ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Permite que el ul se centre*/
+    text-align: center;
+}
+.lista-jugadores li {
+    padding: 5px 0;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: var(--color-secondary);
+    color: white;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
