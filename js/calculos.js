@@ -90,7 +90,7 @@ function calcularClasificacion() {
         .map(([nombre, estadisticas], i) => `
             <tr>
                 <td> data-label="Posición"><span class="pos-badge">${i + 1}</span></td>
-                <td  data-label="Jugador" class="text-left">${nombre}</td>
+                <td> data-label="Jugador" class="text-left">${nombre}</td>
                 <td> data-label="Puntos">${estadisticas.puntos}</td>
                 <td> data-label="Ganados">${estadisticas.ganados}</td>
                 <td> data-label="Empatados">${estadisticas.empatados}</td>
