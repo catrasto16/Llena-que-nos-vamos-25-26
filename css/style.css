@@ -68,7 +68,7 @@ nav a.active {
 /* --- CONTENIDO CENTRAL --- */
 main {
     text-align: center;
-    max-width: 900px; /* ancho máximo */
+    max-width: 100%; /* ancho máximo */
     margin: 20px auto;
     padding: 20px;
     background: white;
