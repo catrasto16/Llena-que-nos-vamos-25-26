@@ -23,8 +23,7 @@ const players =[
     { nombre: "Santi" },
     { nombre: "Ismael" },
     { nombre: "Pedro" },
-    { nombre: "Floris" },
-    { nombre: "Jesús" }
+    { nombre: "Floris" }
 ];
 
 // Datos de partidos actualizados
