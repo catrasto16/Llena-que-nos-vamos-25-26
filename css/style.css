@@ -22,7 +22,6 @@ header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 header .logo {
@@ -74,7 +73,6 @@ main {
     padding: 20px;
     background: white;
     border-radius: var(--border-radius);
-    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
 
 /* --- TABLAS --- */
@@ -85,7 +83,6 @@ table {
     background: white;
     border-radius: var(--border-radius);
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     table-layout: auto;
 }
 
