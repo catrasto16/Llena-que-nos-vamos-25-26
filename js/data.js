@@ -1,69 +1,53 @@
 // Datos de los jugadores
 const players =[
-    { nombre: "Álex Laguna" },
-    { nombre: "Catrasto" },
-    { nombre: "Clarico" },
-    { nombre: "Juanma" },
-    { nombre: "Juanma Palomita" },
-    { nombre: "Juan Tovar" },
-    { nombre: "Juan Carlos" },
-    { nombre: "Jose Ángel" },
-    { nombre: "Juan López" },
-    { nombre: "Jose Gemelo" },
-    { nombre: "Pedro Gemelo" },
-    { nombre: "Jose Ortega" },
-    { nombre: "Puro" },
-    { nombre: "Maño" },
-    { nombre: "Mateo" },
-    { nombre: "Castilla" },
-    { nombre: "Diego Moreno" },
-    { nombre: "Juan Trepabarcos" },
-    { nombre: "Villegas" },
-    { nombre: "Pedrín" },
-    { nombre: "Santi" },
-    { nombre: "Ismael" },
-    { nombre: "Pedro" },
-    { nombre: "Floris" }
+{ nombre: "Álex Laguna" },
+{ nombre: "Castilla" },
+{ nombre: "Catrasto" },
+{ nombre: "Clarico" },
+{ nombre: "Diego Moreno" },
+{ nombre: "Floris" },
+{ nombre: "Ismael" },
+{ nombre: "Jose Ángel" },
+{ nombre: "Jose Gemelo" },
+{ nombre: "Jose Ortega" },
+{ nombre: "Juan Carlos" },
+{ nombre: "Juan López" },
+{ nombre: "Juan Tovar" },
+{ nombre: "Juan Trepabarcos" },
+{ nombre: "Juanma" },
+{ nombre: "Juanma Palomita" },
+{ nombre: "Maño" },
+{ nombre: "Mateo" },
+{ nombre: "Pedro" },
+{ nombre: "Pedro Gemelo" },
+{ nombre: "Pedrín" },
+{ nombre: "Puro" },
+{ nombre: "Santi Gorra" },
+{ nombre: "Villegas" }
+
 ];
 
 // Datos de partidos actualizados
 const matches = [
     {
         jornada: 1,
-        fecha: "01/09/2025",
-        arbitro: "Pedrín",
+        fecha: "03/09/2025",
+        arbitro: "",
         equipoNegro: [
-            { nombre: "Juan Carlos", goles: 2,amarillas:1 },
-            { nombre: "Pedro Gemelo", goles: 1 },
-            { nombre: "Catrasto", goles: 4 },
-            { nombre: "Maño", goles: 3 },
-            { nombre: "Puro", goles: 0 }
+            /*{ nombre: "", goles: 0, amarillas:0 },
+            { nombre: "", goles: 0 },
+            { nombre: "", goles: 0 },
+            { nombre: "", goles: 0 },
+            { nombre: "", goles: 0 }*/
         ],
         equipoRojo: [
-            { nombre: "Juan López", goles: 1 },
-            { nombre: "Clarico", goles: 0 },
-            { nombre: "Floris", goles: 3 },
-            { nombre: "Álex Laguna", goles: 3 },
-            { nombre: "Jose Gemelo", goles: 3 }
+            /*{ nombre: "", goles: 0 },
+            { nombre: "", goles: 0 },
+            { nombre: "", goles: 0 },
+            { nombre: "", goles: 0 },
+            { nombre: "", goles: 0 }*/
         ]
     },
-    {
-        jornada: 2,
-        fecha: "08/09/2025",
-        arbitro: "Villegas",
-        equipoNegro: [
-            { nombre: "Santi", goles: 1 },
-            { nombre: "Pedro", goles: 0 },
-            { nombre : "Floris", goles: 7 },
-            { nombre: "Juan Carlos", goles: 3 },
-            { nombre: "Puro", goles: 3 }
-        ],
-        equipoRojo: [
-            { nombre: "Juan López", goles: 2 },
-            { nombre: "Catrasto", goles: 1 },
-            { nombre: "Maño", goles: 3 },
-            { nombre: "Jose Ortega", goles: 3 },
-            { nombre: "Juanma", goles: 3 }
-        ]
-    }
+    
+    
 ];
