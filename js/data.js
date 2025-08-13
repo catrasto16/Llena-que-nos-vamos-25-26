@@ -42,7 +42,9 @@ const matches = [
         equipoRojo: [
             { nombre: "Juan López", goles: 1 },
             { nombre: "Clarico", goles: 0 },
-            { nombre: "Floris", goles: 3 }
+            { nombre: "Floris", goles: 3 },
+            { nombre: "Álex Laguna", goles: 3 },
+            { nombre: "Jose Gemelo", goles: 3 }
         ]
     },
     {
@@ -52,11 +54,16 @@ const matches = [
         equipoNegro: [
             { nombre: "Santi", goles: 1 },
             { nombre: "Pedro", goles: 0 },
-            { nombre : "Floris", goles: 7 }
+            { nombre : "Floris", goles: 7 },
+            { nombre: "Juan Carlos", goles: 3 },
+            { nombre: "Puro", goles: 3 }
         ],
         equipoRojo: [
             { nombre: "Juan López", goles: 2 },
-            { nombre: "Catrasto", goles: 1 }
+            { nombre: "Catrasto", goles: 1 },
+            { nombre: "Maño", goles: 3 },
+            { nombre: "Jose Ortega", goles: 3 },
+            { nombre: "Juanma", goles: 3 }
         ]
     }
 ];
