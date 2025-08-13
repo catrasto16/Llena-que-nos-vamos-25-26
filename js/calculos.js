@@ -89,13 +89,13 @@ function calcularClasificacion() {
         .sort(([, a], [, b]) => b.puntos - a.puntos)
         .map(([nombre, estadisticas], i) => `
             <tr>
-                <td><span class="pos-badge">${i + 1}</span></td>
-                <td class="text-left">${nombre}</td>
-                <td>${estadisticas.puntos}</td>
-                <td>${estadisticas.ganados}</td>
-                <td>${estadisticas.empatados}</td>
-                <td>${estadisticas.perdidos}</td>
-                <td>${estadisticas.tarjetas_amarillas}</td>
+                <td> data-label="Posición"><span class="pos-badge">${i + 1}</span></td>
+                <td  data-label="Jugador" class="text-left">${nombre}</td>
+                <td> data-label="Puntos">${estadisticas.puntos}</td>
+                <td> data-label="Ganados">${estadisticas.ganados}</td>
+                <td> data-label="Empatados">${estadisticas.empatados}</td>
+                <td> data-label="Perdidos">${estadisticas.perdidos}</td>
+                <td> data-label="Amarillas">${estadisticas.tarjetas_amarillas}</td>
             </tr>
         `).join("");
 
