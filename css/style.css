@@ -231,13 +231,22 @@ footer {
 
     nav ul {
         flex-direction: column;
+        aling-items: center;
         gap: 5px;
+    }
+
+    nav a {
+        padding: 5px 10px;
     }
 
     /* El contenido principal ocupa todo el ancho */
     main {
         padding: 15px;
         margin: 10px;
+        text-align: center;
+        max-width: 100%; /* ancho máximo */
+        background: white;
+        border-radius: var(--border-radius);
     }
 
     /* La tarjeta de partido se vuelve vertical */
@@ -265,7 +274,13 @@ footer {
 
     /* Ajustes para las tablas (clasificación y goleadores) */
     table, thead, tbody, th, td, tr {
-        display: block;
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px auto;
+        background: white;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        table-layout: auto;
     }
     thead {
         display: none; /* Oculta la cabecera en móvil */
