@@ -12,7 +12,7 @@ function mostrarPartido(partido) {
     container.innerHTML = `
         <div class="partido-card">
             <div class="header-card">
-                <h3>Jornada ${partido.jornada} - ${partido.fecha} - Árbitro:${partido.arbitro}</h3>
+                <h3>Jornada ${partido.jornada} - ${partido.fecha} - Árbitro: ${partido.arbitro}</h3>
             </div>
             <div class="score-card">
                 <div class="equipo">
